@@ -4,13 +4,11 @@
     
 }
 
+
+
 #main-skills {
     user-select: none;
-
-   
-   
     width: 100%;
-
     display: flex;
     justify-content: start;
     flex-direction: column;
@@ -23,6 +21,8 @@
         box-shadow:  inset 0 5px 10px rgba(0,0,0,0.4);
 
 }
+
+
 
 .main-h2 {
     text-align: center;
@@ -51,6 +51,11 @@
     gap: 8px;
     color: white;
     
+}
+
+@media (max-width: 600px) {
+    .skills-container { grid-template-columns: 1fr 1fr 1fr;}
+
 }
 
 

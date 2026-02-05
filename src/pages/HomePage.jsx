@@ -6,6 +6,7 @@ import Skills from '../components/Skills'
 import Portfolio from '../components/Portfolio'
 import Courses from '../components/Courses'
 import Home from '../components/Home'
+import Disclaimer from '../components/Disclaimer'
 
 export default function HomePage() {
     return (
@@ -17,6 +18,7 @@ export default function HomePage() {
             <Skills />
             <Portfolio />
             <Courses />
+           
         </Home>
         
         </>

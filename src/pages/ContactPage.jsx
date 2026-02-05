@@ -20,8 +20,8 @@ export default function ContactPage() {
         </div>
        <div class='contact-bottom'>
             <div class='contact-bottom-left'>
-                <h1>Get <span class='black'>in</span> 
-                <br/>
+                <h1>Get <span class='black'>in </span> 
+               
                 <span class='black'>touch</span>
                 
                 </h1>
@@ -30,12 +30,12 @@ export default function ContactPage() {
             </div>
 
             <div class='contact-bottom-right'>
-                <h2>Contact Information</h2>
+                <h2 class='contact-header'>Contact Information</h2>
                 
-                <p><img src={homeIco}></img>RevoSolutions BV, Rietstraat 7C, 8430 Middelkerke, Belgium </p>
-                <p><img src={telephoneIco}></img>+32 488 49 87 14</p>
-                <p><img src={mailIco}></img>anton@revosolutions.be</p>
-                <p><img src={linkedinIco}></img>LinkedIn</p>
+                <p class='contact-p'><img src={homeIco}></img>RevoSolutions BV, Rietstraat 7C, 8430 Middelkerke, Belgium </p>
+                <p class='contact-p'><img src={telephoneIco}></img>+32 488 49 87 14</p>
+                <p class='contact-p'><img src={mailIco}></img>anton@revosolutions.be</p>
+                <p class='contact-p'><img src={linkedinIco}></img>LinkedIn</p>
 
 
 

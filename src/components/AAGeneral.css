@@ -6,9 +6,13 @@
   
 }
 
+html {
+    height: 100%;
+}
 body {
     overflow: auto;
   margin: 0;
+  height: 100%;
 }
 
 
@@ -26,6 +30,13 @@ body {
 
 }
 
+@media (max-width: 600px) {
+    .black {color: white};
+
+}
+
 
 .saved {
     color: rgb(145, 112, 78) };
+
+    

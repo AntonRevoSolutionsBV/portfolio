@@ -66,6 +66,8 @@ a:hover {
     align-items: center;
 }
 
+
+
 #navbar-right {
     display: flex;
     gap: 10px;
@@ -79,3 +81,14 @@ a:hover {
 
 }
 
+@media (max-width: 600px) {
+     #navbar-left {font-size: 3px;}
+     #navbar-webdeveloper {display: none;}
+     .navbar-logo {margin-left: 15px;}
+}
+
+@media (max-width: 480px) {
+    
+     #navbar-lastname {display: none;}
+     
+}

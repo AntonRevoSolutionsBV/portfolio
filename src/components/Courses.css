@@ -5,9 +5,12 @@
     height: 500px;
     width: 100%;
     display: flex;
+    
    
 
 }
+
+
 
 
 .white {
@@ -53,4 +56,16 @@
     padding-right: 40px;
     padding-top: 40px;
     font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    #courses-main { flex-direction: column;}
+    #courses-left {
+        text-align: center;
+        padding: 0 0 0 1.5rem;
+    }
+    #courses-right {
+        padding: 1rem 0;
+        text-align: center;
+    }
 }
