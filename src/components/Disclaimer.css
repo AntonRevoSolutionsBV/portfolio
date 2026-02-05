@@ -1,0 +1,11 @@
+.disclaimer-text {
+    text-align: center;
+    font-size: 1.1rem;
+    color: rgb(95, 95, 95);
+    margin: 0;
+
+}
+
+.disclaimer-main {
+    background-color: var(--darkbackground)
+}

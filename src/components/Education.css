@@ -1,0 +1,65 @@
+#education-main {
+    color: rgb(8, 6, 41);
+    
+    padding: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.397);
+ 
+
+    
+}
+
+.university-logo {
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    
+    border-radius: 100%;
+    background-color: rgb(240, 237, 224);
+    border-width: 1px;
+
+}
+
+#education-left {
+    border-style: none solid none none;
+    border-color: rgb(206, 206, 206);
+    border-width: 2px;
+    display: flex;
+    align-items: center;
+
+}
+
+#education-right {
+    display: flex;
+    align-items: center;
+}
+
+#education-right-text {
+    text-align: left;
+
+}
+
+#education-left-text {
+    text-align: right;
+
+}
+
+.education-title {
+    font-size: 1.2rem;
+ 
+    margin: 0;
+
+}
+
+.education-year {
+    margin-bottom: 0;
+    opacity: 0.5;
+
+}

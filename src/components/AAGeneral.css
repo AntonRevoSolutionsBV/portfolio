@@ -1,0 +1,31 @@
+:root {
+  --background: rgb(243, 166, 0);
+  --darkbackground: rgb(39, 38, 38);
+  --accent: rgb(22, 24, 26);
+
+  
+}
+
+body {
+    overflow: auto;
+  margin: 0;
+}
+
+
+.white {
+    color: white;
+}
+
+.orange {
+    color: var(--accent);
+    font-weight: 800;
+}
+
+.black {
+    color: var(--darkbackground)
+
+}
+
+
+.saved {
+    color: rgb(145, 112, 78) };

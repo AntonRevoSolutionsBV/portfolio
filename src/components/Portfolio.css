@@ -1,0 +1,114 @@
+@keyframes opacityAnimation {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes zoom {
+    from {zoom: normal;}
+    to {zoom: 150%;}
+}
+
+@keyframes slideRight {
+    from {left: 1000px;}
+    to {left: 0px;}
+    
+}
+#portfolio-main {
+    
+    
+   
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.397);
+    
+    
+
+}
+
+.img-container {
+    border-radius: 10px;
+    opacity: 0.9;
+    height: 290px;
+    width: 210px;
+    object-fit: contain;
+    overflow: hidden;
+    animation-name: opacityAnimation;
+    animation-duration: 5s;
+    opacity: 0.6;
+    transition: 1s;
+    
+    
+}
+
+.img-container:hover {
+        box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+        opacity: 1;
+      
+}
+
+.portfolio-img {
+   
+    
+    width: 100%;
+    
+    transition: 2s;
+    
+}
+
+.portfolio-p {
+    opacity: 0.6;
+
+}
+
+.portfolio-img:hover {
+
+   width: 250px;
+     
+     
+
+}
+
+.portfolio-note {
+    color: rgb(126, 126, 126);
+    text-align: center;
+}
+
+
+
+.portfolio-entry {
+    position: relative;
+    margin-top: 10px;
+    
+    margin: 20px auto ;
+    display: flex;
+    border-style: none;
+    border-radius: 10px;
+    padding: 20px;
+    
+    width: 66%;
+    max-width: 800px;
+    background-color: rgba(197, 197, 197, 0.2);
+    animation-name: opacityAnimation, slideRight;
+    animation-duration: 1.5s;
+
+
+   
+
+}
+
+.portfolio-entry-right {
+    margin-left: 20px;
+
+}
+
+#portfolio-title {
+    color: rgb(33, 54, 126);
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
