@@ -1,8 +1,8 @@
 #courses-main {
     
-    background-color: black;
+    background-color: rgb(194, 194, 194);
 
-    height: 500px;
+    
     width: 100%;
     display: flex;
     
@@ -31,6 +31,7 @@
     width: 100%;
     padding-left: 60px;
     padding-top: 30px;
+    padding-bottom: 30px;
       
 }
 

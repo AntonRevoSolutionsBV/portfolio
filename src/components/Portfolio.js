@@ -56,7 +56,7 @@ function Portfolio() {
             <img class='portfolio-img' src={cv}></img>
             </div>
             <div class='portfolio-entry-text'>
-            <p>TThis is a simple Curriculum Vitae webpage that was designed with basic HTLM and CSS. It uses common techniques like flexbox, text editing, using special characters etc. It can be printed out directly as a single A4 page.
+            <p>This is a simple Curriculum Vitae webpage that was designed with basic HTLM and CSS. It uses common techniques like flexbox, text editing, using special characters etc. It can be printed out directly as a single A4 page.
             </p> <p>  Creating layouts and styles in HTML and CSS has become a second nature for me at this point, so I use it often to create printed documents.</p>
             </div>
         </div>
@@ -73,7 +73,7 @@ function Portfolio() {
             <img class='portfolio-img' src={invoiceGen}></img>
             </div>
             <div class='portfolio-entry-text'>
-            <p>This is a custom application that takes customer data and items either as a direct input or from a data storage, then prints a complete invoice in a pdf-pritable standard A4 format. It was designed to be used as a standalone application, as well as being a seperate module for a webstore.
+            <p >This is a custom application that takes customer data and items either as a direct input or from a data storage, then prints a complete invoice in a pdf-pritable standard A4 format. It was designed to be used as a standalone application, as well as being a seperate module for a webstore.
             </p> <p> It has several smart features that are coded with JavaScript. For example, the default date will be set to the actual current date. The application will check for a VAT-number and apply VAT-reverse-charge when needed. The application knows if a certain article is already on the list, and will not add an extra line if you want to add more of it to the invoice, it will just increase the quantity.</p>
             </div>
         </div>

@@ -10,11 +10,13 @@ import Layout from './components/Layout';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ScrollToTop from './components/ScrollToTop.jsx'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    <ScrollToTop />
       <Routes>
 
       <Route path='/' element={<Layout />}>

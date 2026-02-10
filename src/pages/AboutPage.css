@@ -10,10 +10,20 @@
 
 }
 
+.body { 
+   
+    
+
+}
 
 
 .about-img-container {
-    height: 40%;
+    
+    
+    
+   height: 40%;
+
+
     
     background-image: url('../media/osc.jpg');
      background-repeat: no-repeat;
@@ -25,6 +35,12 @@
      animation-direction: alternate;
     animation-iteration-count: infinite;
     
+    
+    
+}
+
+.test {
+    height: 40%;
 }
 
 .about-container {
@@ -57,9 +73,7 @@
 .about-container2 {
     margin-top: 70px;
     background-color: var(--darkbackground);
-    height: 12
-    00px;
-
+    height: 1000px;
     display: flex;
     animation: opacityAbout;
     animation-duration: 1s;
@@ -73,6 +87,7 @@
     max-width: 400px;
     height: 100%;
     text-align: center;
+
 
 }
 
@@ -113,7 +128,8 @@
    
     .about-img-container { 
         width: 66%; 
-        height: 100%}
+        height: 100%;
+    }
      .about-left {
         max-width: none;
         

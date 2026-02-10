@@ -46,7 +46,8 @@ export default function ContactPage() {
 
 
        </div>
-        </div>  
+        </div>
+        <div class='contact-close'></div>  
 
             
            
