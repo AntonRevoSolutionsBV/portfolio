@@ -1,13 +1,11 @@
 @keyframes blink {
-    from {opacity: 0}
-    to {opacity: 1}
-    
+    from {opacity: 0;}
+    to {opacity: 1;} 
 }
 
 .navbar-name {
     font-size: 1.2rem;
     font-weight: 500;
-
 }
 
 a {
@@ -25,8 +23,6 @@ a:hover {
     color: orange;
     text-decoration-color: rgb(255,165,0,1) ;
     cursor: pointer;
-    
-
 }
 
 .span-blink {
@@ -35,8 +31,6 @@ a:hover {
     animation-duration: 1s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-
-
 }
 
 #navbar {
@@ -46,7 +40,6 @@ a:hover {
     border-width: 1px; 
     padding: 3px;
     height: 65px;
-    
     display: flex;
     justify-content: space-between;
     z-index: 1000;
@@ -55,30 +48,22 @@ a:hover {
     left: 0;
     right: 0;
     padding-right: 20px;
-    
-
-
 }
 
 #navbar-left {
-    
     display: flex;
     align-items: center;
 }
 
-
-
 #navbar-right {
     display: flex;
-    gap: 10px;
-    
+    gap: 10px;   
 }
 
 .navbar-logo {
     width: 30px;
     margin-left: 30px;
     margin-right: 10px;
-
 }
 
 @media (max-width: 600px) {
@@ -88,7 +73,5 @@ a:hover {
 }
 
 @media (max-width: 480px) {
-    
      #navbar-lastname {display: none;}
-     
 }

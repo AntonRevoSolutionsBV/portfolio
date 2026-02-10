@@ -1,25 +1,14 @@
-
 @keyframes imagePosition {
     from {background-position: 0 40%;}
     to {background-position: 0 80%;}
-
 }
-
-
-
-
 
 .contact-container {
     background-color: var(--background);    
     animation: opacityAnimation;
     animation-duration: 1s;
     color: white;
-   
-   
     margin-top: 68px;
-
-    
-
 }
 
 .contact-container>.contact-bottom>p {
@@ -32,20 +21,18 @@ p>img {
     margin-right: 10px;
 }
 
-
 .contact-p {
     display: flex;
     align-items: center;
 }
 
 .contact-top {
-    
     height: 300px;
     width: 100%;
     background-image: url('../media/train.jpg');
-     background-repeat: no-repeat;
-     background-size: 100%;
-     background-position: 0px 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px 50%;
     animation: imagePosition;
     animation-duration: 15s;
     animation-direction: alternate;
@@ -53,30 +40,23 @@ p>img {
 }
 
 .contact-h1 {
-    text-align:  center;
+    text-align: center;
     margin: auto;
     text-transform: uppercase;
-
 }
 
 .contact-bottom {
     display: flex;
     height: 1000px;
-   
     width: auto;
     background-color: var(--darkbackground)
 }
 
-
-
 .contact-bottom-left {
     background-color: var(--background);
     width: 35%;
-    padding: 30px 20px;
-    
+    padding: 30px 20px; 
 }
-
-
 
 .contact-bottom-left>h1 {
     margin: auto;
@@ -90,7 +70,6 @@ p>img {
     padding-left: 40px;
     padding-top: 20px;
     
-   
 }
 
 .contact-icon {
@@ -118,20 +97,22 @@ p>img {
     margin: auto;
 }
 
-
-
 @media (max-width: 600px) {
-    .contact-top {height: 200px;}
-     .contact-bottom {flex-direction: column;
-        
-                        }
-     .contact-bottom-left { display: none; width: 100%;};
+    .contact-top {
+        height: 200px;
+    }
+    .contact-bottom {
+        flex-direction: column;
+    }
+    .contact-bottom-left {
+        display: none; 
+        width: 100%;
+    }
      .contact-bottom-right {
             height: 100%;
-            padding: 0;
-            
-        }
-     .contact-header {font-size: 2rem;}
-
-     
+            padding-top: 0;  
+    }
+     .contact-header {
+        font-size: 2rem;
+    }
 }

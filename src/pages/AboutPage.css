@@ -1,42 +1,23 @@
 @keyframes opacityAbout {
-    from {opacity: 0}
+    from {opacity: 0;}
     to {opacity: 1;}
-    
 }
 
 @keyframes imageSlideLeft {
     from {background-position: 20% 0;}
     to {background-position: 60% 0;}
-
 }
-
-.body { 
-   
-    
-
-}
-
 
 .about-img-container {
-    
-    
-    
-   height: 40%;
-
-
-    
+        
+    height: 40%;
     background-image: url('../media/osc.jpg');
-     background-repeat: no-repeat;
-     background-size: cover;
-     
-     animation: imageSlideLeft;
-
-     animation-duration: 25s;
-     animation-direction: alternate;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    animation: imageSlideLeft;
+    animation-duration: 25s;
+    animation-direction: alternate;
     animation-iteration-count: infinite;
-    
-    
-    
 }
 
 .test {
@@ -44,16 +25,15 @@
 }
 
 .about-container {
-      background-color: rgb(221, 255, 127);
-    Padding: 50px;
+    background-color: rgb(221, 255, 127);
+    padding: 50px;
     margin-top: 68px;   
 }
 
 .about-interest {
    color: var(--darkbackground);
    font-weight: 600;
-   margin: 8px;
-   
+   margin: 8px;  
 }
 
 .about-interest-container {
@@ -61,14 +41,10 @@
     font-size: 0.8rem;
 }
 
-
-
-#about-top {
-    
+#about-top {    
     display: flex;
     height: 300px;
 }
-
 
 .about-container2 {
     margin-top: 70px;
@@ -77,7 +53,6 @@
     display: flex;
     animation: opacityAbout;
     animation-duration: 1s;
-
 }
 
 .about-left {
@@ -87,8 +62,6 @@
     max-width: 400px;
     height: 100%;
     text-align: center;
-
-
 }
 
 .about-right {
@@ -97,15 +70,12 @@
     padding-bottom: 50px;
     color: white;
     background-color: var(--darkbackground);
-    
     max-width: 1200px;
-
 }
 
 .about-right>p {
     text-indent: 2%;
     font-size: 1rem;
-
 }
 
 .about-left>h1 {
@@ -118,20 +88,18 @@
 }
 
 @media (max-width: 600px) {
-    .about-container2 {flex-direction: column;}
+    .about-container2 {
+        flex-direction: column;
+    }
     .about-left {
         display: flex;
-        width: 100%;
-        
-        
+        width: 100%;    
     }
-   
     .about-img-container { 
         width: 66%; 
         height: 100%;
     }
      .about-left {
         max-width: none;
-        
      }
 }

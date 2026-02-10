@@ -1,37 +1,29 @@
 @keyframes slide {
-    from {object-position: 48%}
-    to {object-position: 52%}
-    
+    from {object-position: 48%;}
+    to {object-position: 52%;}
 }
 
 @keyframes opacity {
-    from {opacity: 0}
-    to {opacity: 1}
-
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 
 #hero-main {
     color: rgb(8, 6, 41);
-    
     width: 100%;
     display: flex;
     justify-content: center;
     margin: auto;
-  
-
-      border-style: none none solid none;
+    border-style: none none solid none;
     border-width: 1px;
     border-color: rgba(255, 255, 255, 0.397);
     padding: 100px 0 0 0;
-    
-
 }
 
 
 #hero-left {
     margin-right: 30px;
-
 }
 
 #hero-right {
@@ -42,7 +34,6 @@
 }
 
 #hero-avatar {
-    
     width: 300px;
     height: 300px;
     object-fit: cover;
@@ -53,17 +44,12 @@
     #hero-avatar {
         width: 200px;
         height: 200px;
-   
-}
+    }
 
     #hero-right {
         margin-left: 0;
     }
-
 }
-
-
-
 
 .hero-button {
     font-family: inherit;
@@ -78,50 +64,37 @@
     border-color: rgba(255, 255, 255, 0.8);
     background-color: rgb(32, 144, 219);
     cursor: pointer;
-
 }
 
 .hero-h2 {
     font-size: 2.2rem;
     margin-bottom: 0;
-
 }
 
 @media (max-width: 600px) {
     #hero-main {
-       
         margin: 0;
         padding: 100px 0 0 0;
     }
-    
     .hero-h2 {
-       
         font-size: 1.2rem;
         text-wrap: nowrap;
-
     }
     #hero-avatar {
-         width: 170px;
-         height: 170px;
-        
-        
+        width: 170px;
+        height: 170px;
         border-radius: 100%;
-        
         order: -1;  
         display: block;  
-        
     }   
-
     #hero-left {
         padding-left: 0px;
     }
-  
     .hero-button {
         display: none;
     }
     .hero-p {
         font-size: 0.8rem;
     }
-
 }
 

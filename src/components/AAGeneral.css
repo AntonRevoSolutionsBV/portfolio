@@ -2,21 +2,15 @@
   --background: rgb(243, 166, 0);
   --darkbackground: rgb(39, 38, 38);
   --accent: rgb(22, 24, 26);
-
-  
 }
 
 html {
-    height: 100%;
-   
+    height: 100%;  
 }
 body {
     height: 100%;
-    
-    margin: 0;
-  
+    margin: 0; 
 }
-
 
 .white {
     color: white;
@@ -28,17 +22,16 @@ body {
 }
 
 .black {
-    color: var(--darkbackground)
-
+    color: var(--darkbackground);
 }
 
 @media (max-width: 600px) {
     .black {color: white};
-
 }
 
 
 .saved {
-    color: rgb(145, 112, 78) };
+    color: rgb(145, 112, 78);
+}
 
     
