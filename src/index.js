@@ -20,11 +20,11 @@ root.render(
       <Routes>
 
       <Route path='/' element={<Layout />}>
-        <Route index element={<Navigate to='/home'/>} />
-        <Route path='/home' element={<HomePage />}/>
+        <Route index element={<Navigate to='/portfolio'/>} />
+        <Route path='/portfolio' element={<HomePage />}/>
         <Route path="/about" element={<AboutPage />}/>
         <Route path="/contact" element={<ContactPage />}/>
-        <Route path="*" element={<HomePage />}/>
+        <Route path="*" element={<NotFoundPage />}/>
 
 
       </Route>

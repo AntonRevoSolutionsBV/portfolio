@@ -8,7 +8,7 @@ function Hero() {
     return (
         <main id='hero-main'>
         <div id='hero-left'>
-        <h2 className='hero-h2'>Hi There- <br />
+        <h2 className='hero-h2'>Hi There1 <br />
             I'm Anton <span className='orange'>Dolinsky</span>
         </h2>
         <p className='hero-p'>Freelance <span className='orange'>Web Developer</span> & <br/>
