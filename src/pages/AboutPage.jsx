@@ -10,26 +10,26 @@ export default function AboutPage() {
         <>
         
 
-          <div class='about-container2'>
+          <div className='about-container2'>
 
                 
-                <div class='about-left'>
-                    <div class='about-img-container'>
+                <div className='about-left'>
+                    <div className='about-img-container'>
                         
                     </div>
 
                     
                     
-                    <div class='about-interest-container'>
+                    <div className='about-interest-container'>
                     <h1>Interests</h1>
-                    <p class='about-interest'>{'\u2713'} AudioVisual Technology</p>
-                    <p class='about-interest'>{'\u2713'} Graphic Design</p>
-                    <p class='about-interest'>{'\u2713'} Photography</p>
-                    <p class='about-interest'>{'\u2713'} DIY Electronics</p>
+                    <p className='about-interest'>{'\u2713'} AudioVisual Technology</p>
+                    <p className='about-interest'>{'\u2713'} Graphic Design</p>
+                    <p className='about-interest'>{'\u2713'} Photography</p>
+                    <p className='about-interest'>{'\u2713'} DIY Electronics</p>
                     
-                    <p class='about-interest'>{'\u2713'} Alpine Skiing</p>
-                    <p class='about-interest'>{'\u2713'} Kite Surfing</p>
-                    <p class='about-interest'>...</p>
+                    <p className='about-interest'>{'\u2713'} Alpine Skiing</p>
+                    <p className='about-interest'>{'\u2713'} Kite Surfing</p>
+                    <p className='about-interest'>...</p>
                     </div>
                 </div>
                 <div>
@@ -37,7 +37,7 @@ export default function AboutPage() {
 
                     
                 </div>
-                <div class='about-right'>
+                <div className='about-right'>
                     <h1>Biography</h1>
                     <p>This section is under construction. Meanwhile you can practice your Latin by reading the following Lorem Ipsum:  </p>
 
@@ -51,7 +51,7 @@ export default function AboutPage() {
 
 
                 </div>
-                <div class='about-right' id='about-right-2'>
+                <div className='about-right' id='about-right-2'>
                    
                     
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>

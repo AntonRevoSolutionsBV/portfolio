@@ -13,29 +13,29 @@ import React from 'react'
 export default function ContactPage() {
     return (
         <>
-        <div class='contact-container'>
-        <div class='contact-top'>
+        <div className='contact-container'>
+        <div className='contact-top'>
            
         
         </div>
-       <div class='contact-bottom'>
-            <div class='contact-bottom-left'>
-                <h1>Get <span class='black'>in </span> 
+       <div className='contact-bottom'>
+            <div className='contact-bottom-left'>
+                <h1>Get <span className='black'>in </span> 
                
-                <span class='black'>touch</span>
+                <span className='black'>touch</span>
                 
                 </h1>
 
 
             </div>
 
-            <div class='contact-bottom-right'>
-                <h2 class='contact-header'>Contact Information</h2>
+            <div className='contact-bottom-right'>
+                <h2 className='contact-header'>Contact Information</h2>
                 
-                <p class='contact-p'><img src={homeIco}></img>RevoSolutions BV, Rietstraat 7C, 8430 Middelkerke, Belgium </p>
-                <p class='contact-p'><img src={telephoneIco}></img>+32 488 49 87 14</p>
-                <p class='contact-p'><img src={mailIco}></img>anton@revosolutions.be</p>
-                <p class='contact-p'><img src={linkedinIco}></img>LinkedIn</p>
+                <p className='contact-p'><img src={homeIco}></img>RevoSolutions BV, Rietstraat 7C, 8430 Middelkerke, Belgium </p>
+                <p className='contact-p'><img src={telephoneIco}></img>+32 488 49 87 14</p>
+                <p className='contact-p'><img src={mailIco}></img>anton@revosolutions.be</p>
+                <p className='contact-p'><img src={linkedinIco}></img>LinkedIn</p>
 
 
 
@@ -47,7 +47,7 @@ export default function ContactPage() {
 
        </div>
         </div>
-        <div class='contact-close'></div>  
+        <div className='contact-close'></div>  
 
             
            
@@ -63,7 +63,7 @@ export default function ContactPage() {
 <div id='contact-card'>
              <h1 style={{marginTop: '100px'}}>Contact</h1>
 
-                <p><img class='contact-icon' src={phonePic}></img>+32 488 49 87 14</p>
+                <p><img className='contact-icon' src={phonePic}></img>+32 488 49 87 14</p>
                 <p>RevoSolutions BV, Rietstraat 7C, 8430 Middelkerke, Belgium </p>
                 <p>anton@revosolutions.be</p>
                 <p>LinkedIn</p>

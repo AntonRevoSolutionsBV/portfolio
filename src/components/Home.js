@@ -24,7 +24,7 @@ export default function Home(props) {
 
     return (
         <>
-        <div id='home-page' class={classList}>
+        <div id='home-page' className={classList}>
         {props.children}
         </div>
         </>    

@@ -8,15 +8,15 @@ function Hero() {
     return (
         <main id='hero-main'>
         <div id='hero-left'>
-        <h2 class='hero-h2'>Hi There, <br />
-            I'm Anton <span class='orange'>Dolinsky</span>
+        <h2 className='hero-h2'>Hi There, <br />
+            I'm Anton <span className='orange'>Dolinsky</span>
         </h2>
-        <p class='hero-p'>Freelance <span class='orange'>Web Developer</span> & <br/>
+        <p className='hero-p'>Freelance <span className='orange'>Web Developer</span> & <br/>
             Founder of Revosolutions BV
         </p>
 
         <NavLink to='/about'>
-                <button class='hero-button'>About Me</button>
+                <button className='hero-button'>About Me</button>
             </NavLink>
         
         </div> 

@@ -17,7 +17,7 @@ function Navbar() {
 
         <div id='navbar-left'>
             <img className='navbar-logo' src={logo}></img>
-            <p class='navbar-name'>Anton <span id='navbar-lastname'>Dolinsky</span><span id='navbar-webdeveloper'> | Freelance Web Developer_</span></p>
+            <p className='navbar-name'>Anton <span id='navbar-lastname'>Dolinsky</span><span id='navbar-webdeveloper'> | Freelance Web Developer_</span></p>
         </div>
         <div id='navbar-right'>
 

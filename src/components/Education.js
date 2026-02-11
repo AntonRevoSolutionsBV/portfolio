@@ -9,17 +9,17 @@ function Education() {
         
         <div id='education-left'>
             <div id='education-left-text'>
-                <h2 class='education-title'>Bachelor in AudioVisual Communications</h2>
-                <p class='education-year'>Graduated 2012</p>
+                <h2 className='education-title'>Bachelor in AudioVisual Communications</h2>
+                <p className='education-year'>Graduated 2012</p>
             </div>
-            <img class='university-logo' src={ehb}></img>
+            <img className='university-logo' src={ehb}></img>
 
         </div>
         <div id='education-right'>
-            <img class='university-logo' src={vub}></img>
+            <img className='university-logo' src={vub}></img>
             <div id='education-right-text'>
-                <h2 class='education-title'>Bachelor in Applied Economic Sciences</h2>
-                <p class='education-year'>Graduated 2016</p>
+                <h2 className='education-title'>Bachelor in Applied Economic Sciences</h2>
+                <p className='education-year'>Graduated 2016</p>
             </div>
             
             </div>

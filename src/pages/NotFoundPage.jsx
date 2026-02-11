@@ -35,7 +35,7 @@ export default function NotFoundPage() {
    
     return (
         <>
-        <div class='not-found-container' style={styleDiv}>
+        <div className='not-found-container' style={styleDiv}>
         <img style={styleImg} src={error404}/>
         <div>
         <h1 style={styleHeader}>Error 404: Page not found... &#128557;</h1>

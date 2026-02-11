@@ -17,72 +17,72 @@ import figmaIco from '../media/figma.png'
 function Skills() {
     return (
        <main id='main-skills'>
-            <h2 class='main-h2'>
-                <span class='white'>Skills</span> 
-                <span class='orange'>&</span> 
-                <span class='black'>Abilities</span>
+            <h2 className='main-h2'>
+                <span className='white'>Skills</span> 
+                <span className='orange'>&</span> 
+                <span className='black'>Abilities</span>
             </h2>
-            <div class='skills-container'>
+            <div className='skills-container'>
                 
-                <div class='skill-container'>
-                    <img class='skill-logo' src={jsicon}></img>
-                    <p class='skill-name'>JavaScript</p>
+                <div className='skill-container'>
+                    <img className='skill-logo' src={jsicon}></img>
+                    <p className='skill-name'>JavaScript</p>
               
                 </div>
 
-                <div class='skill-container'>
-                    <img class='skill-logo' src={html}></img>
-                    <p class='skill-name'>HTML5</p>
+                <div className='skill-container'>
+                    <img className='skill-logo' src={html}></img>
+                    <p className='skill-name'>HTML5</p>
                 </div>
 
-                <div class='skill-container'>
-                    <img class='skill-logo' src={cssIco}></img>
-                    <p class='skill-name'>CSS</p>
+                <div className='skill-container'>
+                    <img className='skill-logo' src={cssIco}></img>
+                    <p className='skill-name'>CSS</p>
                 </div>
 
-                <div class='skill-container'>
-                    <img class='skill-logo' src={tailwindIco}></img>
-                    <p class='skill-name'>TailwindCSS</p>
+                <div className='skill-container'>
+                    <img className='skill-logo' src={tailwindIco}></img>
+                    <p className='skill-name'>TailwindCSS</p>
                 </div>
 
-                  <div class='skill-container'>
-                    <img class='skill-logo' src={typescript}></img>
-                    <p class='skill-name'>TypeScript</p>
+                  <div className='skill-container'>
+                    <img className='skill-logo' src={typescript}></img>
+                    <p className='skill-name'>TypeScript</p>
                 </div>
 
-                 <div class='skill-container'>
-                    <img class='skill-logo' src={react}></img>
-                    <p class='skill-name'>React</p>
+                 <div className='skill-container'>
+                    <img className='skill-logo' src={react}></img>
+                    <p className='skill-name'>React</p>
                 </div>
 
-                 <div class='skill-container'>
-                    <img class='skill-logo' src={pythonIco}></img>
-                    <p class='skill-name'>Python</p>
+                 <div className='skill-container'>
+                    <img className='skill-logo' src={pythonIco}></img>
+                    <p className='skill-name'>Python</p>
                 </div>
 
-                 <div class='skill-container'>
-                    <img class='skill-logo' src={nextIco}></img>
-                    <p class='skill-name'>NextJS</p>
+                 <div className='skill-container'>
+                    <img className='skill-logo' src={nextIco}></img>
+                    <p className='skill-name'>NextJS</p>
                 </div>
 
-                <div class='skill-container'>
-                    <img class='skill-logo' src={nodeIco}></img>
-                    <p class='skill-name'>NodeJS</p>
+                <div className='skill-container'>
+                    <img className='skill-logo' src={nodeIco}></img>
+                    <p className='skill-name'>NodeJS</p>
                 </div>
 
-                <div class='skill-container'>
-                    <img class='skill-logo' src={expressIco}></img>
-                    <p class='skill-name'>ExpressJS</p>
+                <div className='skill-container'>
+                    <img className='skill-logo' src={expressIco}></img>
+                    <p className='skill-name'>ExpressJS</p>
                 </div>
 
-                <div class='skill-container'>
-                    <img class='skill-logo' src={firebaseIco}></img>
-                    <p class='skill-name'>Firebase</p>
+                <div className='skill-container'>
+                    <img className='skill-logo' src={firebaseIco}></img>
+                    <p className='skill-name'>Firebase</p>
                 </div>
 
-                <div class='skill-container'>
-                    <img class='skill-logo' src={figmaIco}></img>
-                    <p class='skill-name'>Figma</p>
+                <div className='skill-container'>
+                    <img className='skill-logo' src={figmaIco}></img>
+                    <p className='skill-name'>Figma</p>
                 </div>
 
 
