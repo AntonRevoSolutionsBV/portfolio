@@ -21,7 +21,7 @@ function Navbar() {
         </div>
         <div id='navbar-right'>
 
-            <NavLink to='/home'>
+            <NavLink to='/portfolio'>
                 Home
             </NavLink>
            
